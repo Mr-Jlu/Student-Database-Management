@@ -1,4 +1,14 @@
 <?php
+ob_start();
+
+
+if(!isset($_SESSION)){
+    session_start();
+    
+    
+}
+
+
 
 $host = 'localhost';
 $user = 'root';
