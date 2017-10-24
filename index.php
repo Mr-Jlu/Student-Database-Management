@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>SDM APPLICATION - INDEX PAGE</title>
-    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     
@@ -17,11 +17,50 @@
      
     
    <link rel="stylesheet" href="./css/custom.css">
+   
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
     
       
 </head>
-<body>
-   
-         
+<body>    
+ 
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  <!-- Brand/logo -->
+  <a data-toggle='tab' class="navbar-brand" href="#index">Home</a>
+    <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item"><a data-toggle='tab' class="nav-link" href="#login">Login</a></li>
+    <li class="nav-item"><a data-toggle='tab' class="nav-link" href="#signup">Sign Up</a></li>
+    <li class="nav-item"><a data-toggle='tab' class="nav-link" href="#aboutus">About Us</a></li>
+  </ul>
+</nav>
+
+
+
+<div class="tab-content">
+    <div id="index" class="tab-pane fade in">
+        <p>Index</p>
+    </div>
+    
+    <div id="login" class="tab-pane fade ">
+        <p>Login</p>
+    </div>
+    
+    <div id="signup" class="tab-pane fade in">
+        <p>Sign Up</p>
+    </div>
+    
+    <div id="aboutus" class="tab-pane fade in">
+        <p>About Us</p>
+    </div>
+    
+</div>
+
+<div class="container-fluid">
+</div>
 </body>
 </html>
